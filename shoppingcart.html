@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your E-commerce Website - Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"><img src="C:\Users\lapcell\OneDrive\Desktop\Trining2project\Final\images\logo_115x88.png" alt=""> </a>
+                   <ul class="navmenu">
+                       <li><a href="home.html">home</a> </li>
+                       <li><a href="productlisting.html">shop</a> </li>
+                       <li><a href="shoppingcart.html">cart</a> </li>
+                       <li><a href="productdetails.html">Roducts details</a> </li>
+                       <li><a href="#">contact</a> </li>
+                   </ul>
+       
+                   <div class="nav-icon">
+                       <a href="#"> <img src="C:\Users\lapcell\OneDrive\Desktop\Trining2project\Final\images\search.png" alt="" width="20" height="20"></a>
+                       <a href="#"> <img src="C:\Users\lapcell\OneDrive\Desktop\Trining2project\Final\images\user.png" alt="" width="20" height="20"></a>
+                       <a href="#"> <img src="C:\Users\lapcell\OneDrive\Desktop\Trining2project\Final\images\cart.png" alt="" width="20" height="20"></a>
+                       <a href="#"> <img src="C:\Users\lapcell\OneDrive\Desktop\Trining2project\Final\images\menu.png" alt="" width="20" height="20"></a>
+       
+                       <div class="bx bx-menu" id="menu-icon"></div>
+                       
+                   </div>
+           
+       </header>
+
+
+    <div class="cart-container">
+        <h2>Your Cart</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td><img src="C:\Users\lapcell\OneDrive\Desktop\Trining2project\Final\images\product1.jpg" alt="" width="350" height="350"></td>
+                    <td>Face cream</td>
+                    <td>
+                        <input type="number" min="1" value="1">
+                    </td>
+                    <td>$7.44</td>
+                    <td><button>Remove</button></td>
+                </tr>
+
+
+                <tr>
+                    <td><img src="C:\Users\lapcell\OneDrive\Desktop\Trining2project\Final\images\product2.png" alt="" width="350" height="350"></td>
+                    <td>Body Lotion</td>
+                    <td>
+                        <input type="number" min="1" value="1">
+                    </td>
+                    <td>$29.99</td>
+                    <td><button>Remove</button></td>
+                </tr>
+
+
+                <tr>
+                    <td><img src="C:\Users\lapcell\OneDrive\Desktop\Trining2project\Final\images\product5.png" alt="" width="350" height="350"></td>
+                    <td>Masscara</td>
+                    <td>
+                        <input type="number" min="1" value="1">
+                    </td>
+                    <td>$5.12</td>
+                    <td><button>Remove</button></td>
+                </tr>
+
+
+                <tr>
+                    <td><img src="C:\Users\lapcell\OneDrive\Desktop\Trining2project\Final\images\product4.png" alt="" width="350" height="350"></td>
+                    <td>Body splash</td>
+                    <td>
+                        <input type="number" min="1" value="1">
+                    </td>
+                    <td>$14</td>
+                    <td><button>Remove</button></td>
+                </tr>
+
+
+                </tbody>
+        </table>
+        <div class="total-price">
+            <strong>Total:</strong> <span id="total-price">$0.00</span>
+            
+            <div class="checkout-container">
+                <a href="checkout.html" class="checkout-button">Proceed to Checkout</a>
+            </div>
+    </div>
+</body>
+</html> 
